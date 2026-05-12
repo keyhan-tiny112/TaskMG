@@ -1,0 +1,36 @@
+[project]
+name = "taskmg"
+version = "0.1.0"
+description = "Library for creating and managing .task files"
+authors = [
+    {name = "keyhan"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+
+dependencies = []
+
+classifiers = [
+    "License :: OSI Approved :: Apache2.0 License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/keyhan-tiny112/keyhan-tiny112"
+Repository = "https://github.com/keyhan-tiny112/TaskMG"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+taskmg = "taskmg.cli:app"
+
+[tool.setuptools.package-data]
+taskmg = ["py.typed"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
