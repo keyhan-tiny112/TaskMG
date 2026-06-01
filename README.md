@@ -180,7 +180,7 @@ task.name = "new name"
 Install from source:
 
 ```bash
-git clone <repository-url>
+git clone github.com/keyhan-tiny112/TaskMG
 cd <directory>
 # install package
 pip install -e .
