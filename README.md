@@ -20,7 +20,7 @@ tags: [programming, python, metadata, task manager]
 - [Project status](#project-status)
 - [Customization](#customization)
 - [Custom field](#custom-field-added-on-v16)
-- [`Taskmg` API](#task-api)
+- [`Taskmg` http API](#task-api)
 - [license](#license)
 - [CONTRIBUTING](#contributing)
 - [Final words](#final-words)
